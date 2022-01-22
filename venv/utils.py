@@ -5,5 +5,6 @@ Created on Mon Jan 10 13:52:02 2022
 @author: VSurmin
 """
 
-url = {'add_delete_element': "https://the-internet.herokuapp.com/add_remove_elements/"}
-print(url['add_delete_element'])
+url = {'add_delete_element': "https://the-internet.herokuapp.com/add_remove_elements/",
+       'checkbox': "https://the-internet.herokuapp.com/checkboxes",
+       'context_menu': "https://the-internet.herokuapp.com/context_menu"}
