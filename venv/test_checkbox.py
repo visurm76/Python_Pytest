@@ -3,9 +3,8 @@ import pytest
 from selenium.webdriver.common.by import By
 import utils as u
 
+
 LINK = u.url['checkbox']
-
-
 def test_checkbox(browser):
     browser.get(LINK)
     time.sleep(5)

@@ -5,7 +5,6 @@ Created on Mon Jan 10 13:49:32 2022
 @author: VSurmin
 """
 import pytest
-import utils as u
 from selenium import webdriver
 
 

@@ -5,6 +5,7 @@ from selenium.webdriver import ActionChains
 import utils as u
 
 LINK = u.url['context_menu']
+
 def test_context_menu(browser):
     action = ActionChains(browser)
     browser.get(LINK)
